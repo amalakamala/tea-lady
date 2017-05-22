@@ -1,14 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
 }
 
 body {
 	font-family: 'Quicksand', sans-serif;
 	background: #F9F9F9;
-	width: 500px;
+	width: 100%;	
+}
+
+.cabezera, .texto-descriptivo, .formulario{
 	margin: 20px auto;	
 }
 
@@ -82,17 +83,53 @@ a:hover, a:active {
 	-webkit-box-sizing: border-box;
 }
 
+footer{
+	background-color: #D77E00;
+	color: white;
+	padding: 5px 10px;
+	text-align: right;
+	font-size: 0.8em;		
+}
 
-.formulario {
-	text-align-last: center;	
-	font-family: 'Quicksand', sans-serif;
-	box-shadow: 3px 3px 10px #A1A1A1;
-	font-weight: 100;
-	font-size: 0.9em;	
-	background: #fff;
-	width: 500px;
-	margin: 20px auto;
-	padding: 20px;
-	border-radius: 20px;
-	-webkit-box-sizing: border-box;
+.formulario-dos{
+	display: inline-block;
+	float: left;
+	margin: 10px 80px;		
+}
+
+#clientes{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9em;
+    color: #D77E00;
+}
+
+#productos{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.85em;
+    margin-top: 5px;
+    padding-right: 50px;
+}
+
+.te-negro-f{
+	width: 550px;
+	height: 200px;
+	margin:  20px 0;
+	background-image: url(../img/tenegro.jpg);
+	background-repeat: none;
+}
+
+.te-fruta-f{
+	width: 550px;
+	height: 200px;
+	margin:  20px 0;
+	background-image: url(../img/tefruta.jpg);
+	background-repeat: none;
+}
+
+.te-variedades-f{
+	width: 550px;
+	height: 200px;
+	margin:  20px 0;
+	background-image: url(../img/teverobla.jpg);
+	background-repeat: none;	
 }
